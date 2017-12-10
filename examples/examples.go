@@ -2,7 +2,7 @@ package main
 
 import (
 	"log"
-	"github.com/allatrack/udger"
+	udger "github.com/allatrack/udger/parser"
 )
 
 func main() {

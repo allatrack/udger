@@ -1,4 +1,4 @@
-package udger
+package parser
 
 import (
 	"testing"
@@ -9,7 +9,7 @@ import (
 var udgerFS *UdgerFastLoadSlowExec
 
 func init() {
-	_udger, err := NewFS("./udger.sqlite")
+	_udger, err := NewFS("../udger.sqlite")
 	if err != nil {
 		log.Fatal(err)
 	}

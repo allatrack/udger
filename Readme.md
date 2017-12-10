@@ -16,7 +16,9 @@ go get github.com/allatrack/udger
 ## Usage
 If you want to use first approach (fast load - not so fast parsing):
 ```
-import "github.com/peshkov3/udger"
+import (
+     udger "github.com/allatrack/udger/parser"
+)
 
 udgerFS, err := udger.NewFS("path to db")
 if err != nil {
@@ -39,6 +41,11 @@ if err != nil {
     log.Fatal(err)
 }
 ipAddress := udgerSF.ParseIp(`101.0.64.0`)
+```
+
+## Running tests
+```
+go test ./...
 ```
 ## Documentation
 For detailed documentation and basic usage examples, please see the examples folder and tests provided.

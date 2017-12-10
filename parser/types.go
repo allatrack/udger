@@ -1,4 +1,4 @@
-package udger
+package parser
 
 import (
 	"database/sql"

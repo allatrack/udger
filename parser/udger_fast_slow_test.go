@@ -1,4 +1,4 @@
-package udger
+package parser
 
 import (
 	"testing"
@@ -9,7 +9,7 @@ import (
 
 func TestParseUaFS(t *testing.T) {
 	log.Println("Start TestParseUaFS")
-	udger, err := NewSF("./udger.sqlite")
+	udger, err := NewSF("../udger.sqlite")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -73,7 +73,7 @@ func TestParseUaFS(t *testing.T) {
 
 func TestParseIpFS(t *testing.T) {
 	log.Println("Start TestParseIpFS")
-	udger, err := NewSF("./udger.sqlite")
+	udger, err := NewSF("../udger.sqlite")
 	if err != nil {
 		log.Fatal(err)
 	}
