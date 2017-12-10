@@ -15,7 +15,7 @@ This client works in two modes:
 ## Getting Started
 
 ### Prerequisites
-Go v1.9 and above
+<b>Go v1.9 </b>
 
 ### Install
 ```
