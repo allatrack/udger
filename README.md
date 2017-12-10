@@ -1,7 +1,7 @@
 # Udger Go client (data v3)
 ## Motivation
-There is an official golang udger client: [udger](https://github.com/udger/udger)
-But the problem is that it does not provide all the data user may need.    
+There is an official golang udger client: [udger](https://github.com/udger/udger).    
+But the problem is that it does not provide all the data user may need.      
 We looked at the [PHP udger client](https://github.com/udger/udger-php) which provides much more information about
 the user agent and crawler. We took the data structure from the PHP client, approaches from golang client
 and put it together.   
