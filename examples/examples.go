@@ -34,7 +34,7 @@ func main() {
 
 	// more examples see in udger_slow_fast_test.go
 
-	// Example of Slow load - fast execution udgerSF client
+	// Example of fast load - slow execution udgerSF client
 	udgerFS, err := udger.NewFS("./udger.sqlite")
 	if err != nil {
 		log.Fatal(err)
