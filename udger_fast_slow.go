@@ -16,11 +16,11 @@ func NewFS(dbPath string) (*UdgerFastLoadSlowExec, error) {
 	if _, err := os.Stat(dbPath); os.IsNotExist(err) {
 		return nil, err
 	}
-	uSlowFast := &UdgerFastLoadSlowExec{
+	u := &UdgerFastLoadSlowExec{
 		dbPath: dbPath,
 	}
 
-	return uSlowFast, nil
+	return u, nil
 }
 
 func (udger *UdgerFastLoadSlowExec) ParseUa(userAgentString string) (userAgent UserAgent, err error) {
