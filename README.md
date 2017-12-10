@@ -6,8 +6,8 @@ We looked at the [PHP udger client](https://github.com/udger/udger-php) which pr
 the user agent and crawler. We took the data structure from the PHP client, approaches from golang client
 and put it together.   
 This client works in two modes:    
-1 Fast load - not so fast execution. With this approach we just make DB queries when needed.   
-2 Slow first load - faster execution. With this approach we load needed data in memory and then work with it(make as less DB   queries as possible).
+ - Fast load - not so fast execution. With this approach we just make DB queries when needed.   
+ - Slow first load - faster execution. With this approach we load needed data in memory and then work with it(make as less DB   queries as possible).
 
 ## Install
 ```
